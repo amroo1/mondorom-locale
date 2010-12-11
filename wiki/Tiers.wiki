@@ -1,0 +1,10 @@
+#summary Classification of translation progress.
+
+= Introduction =
+
+Due to the complexity of translation, the translation process is divided into tiers. After finishing tier0 your language will be added to MondoROM.
+
+
+= Tiers =
+
+*Tier0*: Rosie.apk, framework-res.apk, Settings.apk 
