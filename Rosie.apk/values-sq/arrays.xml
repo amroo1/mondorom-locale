@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string-array name="select_apply_wallpaper_dialog_items">
-        <item>Home</item>
+        <item>Kryefaqja</item>
         <item>Kyç ekranin</item>
     </string-array>
     <string-array name="select_wallpaper_from_dialog_items">
