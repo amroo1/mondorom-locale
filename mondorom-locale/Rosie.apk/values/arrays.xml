@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="select_apply_wallpaper_dialog_items">
+        <item>Home</item>
+        <item>Lock screen</item>
+    </string-array>
+    <string-array name="select_wallpaper_from_dialog_items">
+        <item>Albums</item>
+        <item>Wallpaper gallery</item>
+    </string-array>
+    <string-array name="theme_settings_dialog_items">
+        <item>Rename</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="default_workspace_names">
+        <item>HTC</item>
+        <item>Social</item>
+        <item>Work</item>
+        <item>Play</item>
+        <item>Travel</item>
+        <item>Clean Slate</item>
+    </string-array>
+    <string-array name="original_workspace_names">
+        <item>HTC</item>
+        <item>Social</item>
+        <item>Work</item>
+        <item>Play</item>
+        <item>Travel</item>
+        <item>Clean Slate</item>
+    </string-array>
+    <string-array name="original_need_changed_names">
+        <item>Orange Photo</item>
+        <item>Orange Maps</item>
+        <item>Orange Messenger</item>
+        <item>Orange TV</item>
+    </string-array>
+    <string-array name="original_change_to_names">
+        <item>Photo</item>
+        <item>Maps</item>
+        <item>Messenge</item>
+        <item>TV</item>
+    </string-array>
+    <array name="extra_wallpapers" />
+</resources>

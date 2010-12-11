@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <integer name="add_view_scroll_up_duration">200</integer>
+    <integer name="add_view_scroll_down_duration">200</integer>
+    <integer name="add_view_fade_in_duration">300</integer>
+    <integer name="add_view_fade_out_down_duration">200</integer>
+    <integer name="blade_scroll_fade">300</integer>
+    <integer name="blade_bar_slide">800</integer>
+    <integer name="draglayer_hint_shadow_radius">2</integer>
+    <integer name="draglayer_hint_shadow_dx">0</integer>
+    <integer name="draglayer_hint_shadow_dy">0</integer>
+</resources>

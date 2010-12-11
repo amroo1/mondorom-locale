@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="window_background">#ff191919</color>
+    <color name="grid_dark_background">#eb191919</color>
+    <color name="bubble_dark_background">#b2191919</color>
+    <color name="delete_color_filter">#a5ff0000</color>
+    <color name="appwidget_error_color">#ffcccccc</color>
+    <color name="all_item_background">#ff000000</color>
+    <color name="all_list_grid_background">#ff000000</color>
+    <color name="variation_background">#ff000000</color>
+    <color name="sences_title_background">#ff525152</color>
+    <color name="sences_title_text_color">#ffbdbebd</color>
+    <color name="draglayer_text_color">#ffffffff</color>
+    <color name="draglayer_text_shadow_color">#bb000000</color>
+    <color name="draglayer_no_space_text_color">#ffffffff</color>
+    <color name="draglayer_no_space_text_shadow_color">#bb000000</color>
+</resources>
