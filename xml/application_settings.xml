@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="@string/applications_settings_header" android:key="applications_settings" android:summary="@string/applications_settings_summary"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.preference.HtcCheckBoxPreference android:persistent="false" android:title="@string/install_applications" android:key="toggle_install_applications" android:summaryOn="@string/install_unknown_applications" android:summaryOff="@string/install_unknown_applications" />
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/quick_launch_title" android:key="quick_launch" android:summary="@string/quick_launch_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.quicklaunch.QuickLaunchSettings" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/manageapplications_settings_title" android:summary="@string/manageapplications_settings_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ManageApplications" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/development_settings_title" android:summary="@string/development_settings_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DevelopmentSettings" />
+    </com.htc.preference.HtcPreferenceScreen>
+</com.htc.preference.HtcPreferenceScreen>

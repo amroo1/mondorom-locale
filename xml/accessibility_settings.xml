@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.htc.preference.HtcPreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.htc.preference.HtcCheckBoxPreference android:persistent="false" android:title="@string/toggle_accessibility_title" android:key="toggle_accessibility_service_checkbox" />
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/accessibility_services_category" android:key="accessibility_services_category" />
+</com.htc.preference.HtcPreferenceScreen>

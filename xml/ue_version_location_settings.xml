@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.htc.preference.HtcPreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/location_title" android:key="ue_location">
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="true" android:title="@string/location_network_based" android:key="location_network" android:summaryOn="@string/location_neighborhood_level" android:summaryOff="@string/location_networks_disabled" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="true" android:title="@string/location_gps" android:key="location_gps" android:summaryOn="@string/location_street_level" android:summaryOff="@string/location_gps_disabled" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="true" android:title="@string/use_location_title" android:key="use_location" android:summary="@string/use_location_summary" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

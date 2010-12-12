@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="@string/device_status_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.InfoPreference android:title="@string/signal_strength_header" android:key="signal_strength" android:summary="@null" />
+    <com.android.settings.InfoPreference android:title="@string/data_bearer_header" android:key="data_bearer" android:summary="@null" />
+    <com.android.settings.InfoPreference android:title="@string/battery_header" android:key="battery" android:summary="@null" />
+    <com.android.settings.InfoPreference android:title="@string/wifi_header" android:key="wifi" android:summary="@null" />
+    <com.android.settings.SingleLineProgressPreference android:persistent="false" android:title="@string/rom_memory_title" android:key="rom_memory" android:summary="" />
+    <com.android.settings.SingleLineProgressPreference android:persistent="false" android:title="@string/sd_memory_title" android:key="sd_memory" android:summary="" />
+</com.htc.preference.HtcPreferenceScreen>

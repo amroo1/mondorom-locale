@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="@string/settings_label" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/personal_settings_title" android:key="personal_settings" android:summary="@string/personal_settings_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.PersonalSettings" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/radio_controls_title" android:key="wireless_settings" android:summary="@string/radio_controls_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.WirelessSettings" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/call_settings_title" android:key="call_settings" android:summary="@string/call_settings_summary">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallFeaturesSetting" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/sound_and_display_settings" android:key="sound_display_settings" android:summary="@string/sound_and_display_settings_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.SoundAndDisplaySettings" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/sync_settings" android:key="sync_settings" android:summary="@string/sync_settings_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.htcSyncSettings" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/htc_location_title" android:key="htc_location_settings" android:summary="@string/htc_location_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.UeVersionLocationSettings" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/search_settings" android:key="search_settings" android:summary="@string/search_settings_summary">
+        <intent android:action="android.search.action.SEARCH_SETTINGS" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/connect_to_pc_title" android:key="connect_to_pc" android:summary="@string/connect_to_pc_summary" android:defaultValue="true">
+        <intent android:targetPackage="com.htc.android.psclient" android:action="android.intent.action.MAIN" android:targetClass="com.htc.android.psclient.RestoreUsbSettings" />
+    </com.htc.preference.HtcPreferenceScreen>
+</com.htc.preference.HtcPreferenceScreen>

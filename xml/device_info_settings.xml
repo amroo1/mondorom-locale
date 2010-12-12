@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="@string/about_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.preference.HtcListPreference android:persistent="true" android:entries="@array/fota_download_entries" android:title="@string/fota_download_scheme" android:key="FOTA_download_options" android:summary="" android:entryValues="@array/fota_download_values" />
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/device_status" android:key="status_info" android:summary="@string/device_status_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.deviceinfo.Status" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/power_usage_summary_title" android:key="power_usage" android:summary="@string/power_usage_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.fuelgauge.PowerUsageSummary" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/legal_information" android:key="container">
+        <com.htc.preference.HtcPreferenceCategory android:title="@string/legal_information" />
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/copyright_title" android:key="copyright">
+            <intent android:action="android.settings.htc_COPYRIGHT" />
+        </com.htc.preference.HtcPreferenceScreen>
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/license_title" android:key="license">
+            <intent android:action="android.settings.htc_LICENSE" />
+        </com.htc.preference.HtcPreferenceScreen>
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/terms_title" android:key="terms">
+            <intent android:action="android.settings.TERMS" />
+        </com.htc.preference.HtcPreferenceScreen>
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/contributors_title" android:key="contributors">
+        <intent android:action="android.settings.TEAM" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/system_tutorial_list_item_title" android:key="system_tutorial" android:summary="@string/system_tutorial_list_item_summary">
+        <intent android:targetPackage="com.htc.android.htcsetupwizard" android:action="android.intent.action.MAIN" android:targetClass="com.htc.android.htcsetupwizard.activity.TutorialActivity" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcPreference android:title="@string/model_number" android:key="device_model" android:summary="@string/device_info_default" style="\?android:preferenceInformationStyle" />
+    <com.htc.preference.HtcPreference android:title="@string/firmware_version" android:key="firmware_version" android:summary="@string/device_info_default" style="\?android:preferenceInformationStyle" />
+    <com.htc.preference.HtcPreference android:title="@string/baseband_version" android:key="baseband_version" android:summary="@string/device_info_default" style="\?android:preferenceInformationStyle" />
+    <com.htc.preference.HtcPreference android:title="@string/kernel_version" android:key="kernel_version" android:summary="@string/device_info_default" style="\?android:preferenceInformationStyle" />
+    <com.htc.preference.HtcPreference android:title="@string/build_number" android:key="build_number" android:summary="@string/device_info_default" style="\?android:preferenceInformationStyle" />
+    <com.htc.preference.HtcPreference android:title="@string/customizer_sw_number" android:key="customizer_sw_number" android:summary="@string/customizer_specific_version" style="\?android:preferenceInformationStyle" />
+</com.htc.preference.HtcPreferenceScreen>

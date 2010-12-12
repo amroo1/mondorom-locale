@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.htc.preference.HtcPreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.htc.preference.HtcEditTextPreference android:singleLine="true" android:title="@string/vpn_name" android:key="vpn_name" android:dialogTitle="@string/vpn_name" />
+</com.htc.preference.HtcPreferenceScreen>

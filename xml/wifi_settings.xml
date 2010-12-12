@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="@string/wifi_settings_category"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.preference.HtcPreference android:persistent="false" android:selectable="false" android:key="wifi_network_picker_header" />
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/wifi_settings_category" android:key="wifi_settings">
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="false" android:title="@string/wifi" android:key="wifi_enabled" android:summary="@string/wifi_quick_toggle_summary" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="false" android:title="@string/wifi_notify_open_networks" android:key="open_network_notifications_enabled" android:summary="@string/wifi_notify_open_networks_summary" android:dependency="wifi_enabled" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.android.settings.ProgressCategory android:persistent="false" android:title="@string/wifi_access_points" android:key="access_points" android:dependency="wifi_enabled" />
+    <com.htc.preference.HtcPreference android:persistent="false" android:title="@string/wifi_add_other_network" android:key="add_other_network" android:dependency="wifi_enabled" />
+</com.htc.preference.HtcPreferenceScreen>

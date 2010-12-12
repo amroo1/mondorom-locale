@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="@string/language_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/phone_language" android:summary="@string/phone_language_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.LocalePicker" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/text_category" android:key="text_category" />
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/builtin_keyboard_settings_title" android:key="hardkeyboard_category" android:summary="@string/builtin_keyboard_settings_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.PhysicalKeyboardSettings" />
+    </com.htc.preference.HtcPreferenceScreen>
+</com.htc.preference.HtcPreferenceScreen>

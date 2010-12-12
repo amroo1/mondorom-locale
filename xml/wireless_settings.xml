@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.htc.preference.HtcPreferenceScreen android:title="@string/radio_controls_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.preference.HtcCheckBoxPreference android:persistent="false" android:title="@string/airplane_mode" android:key="toggle_airplane" android:summary="@string/airplane_mode_summary" android:disableDependentsState="true" />
+    <com.htc.preference.HtcCheckBoxPreference android:persistent="false" android:title="@string/wifi_quick_toggle_title" android:key="toggle_wifi" android:summary="@string/wifi_quick_toggle_summary" android:dependency="toggle_airplane" />
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/wifi_settings" android:summary="@string/wifi_settings_summary" android:dependency="toggle_airplane">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.wifi.WifiSettings" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcCheckBoxPreference android:persistent="false" android:title="@string/bluetooth_quick_toggle_title" android:key="toggle_bluetooth" android:summary="@string/bluetooth_quick_toggle_summary" android:dependency="toggle_airplane" />
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/bluetooth_settings_title" android:summary="@string/bluetooth_settings_summary" android:dependency="toggle_airplane">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.bluetooth.BluetoothSettings" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/vpn_settings_title" android:summary="@string/vpn_settings_summary" android:dependency="toggle_airplane">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.vpn.VpnSettings" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcCheckBoxPreference android:persistent="false" android:title="@string/mobiledata_quick_toggle_title" android:key="toggle_mobiledata" android:summary="@string/mobiledata_quick_toggle_summary" android:dependency="toggle_airplane" />
+    <com.htc.preference.HtcPreferenceScreen android:title="@string/network_settings_title" android:key="toggle_mobilesettings" android:summary="@string/network_settings_summary" android:dependency="toggle_airplane">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.Settings" />
+    </com.htc.preference.HtcPreferenceScreen>
+    <com.htc.preference.HtcCheckBoxPreference android:persistent="true" android:title="@string/internet_sharing_title" android:key="toggle_netsharing" android:summary="@string/internet_sharing_summary" android:defaultValue="false" />
+</com.htc.preference.HtcPreferenceScreen>

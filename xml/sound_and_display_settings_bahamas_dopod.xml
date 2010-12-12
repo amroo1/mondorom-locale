@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.htc.preference.HtcPreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/sound_settings">
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="true" android:title="@string/silent_mode_title" android:key="silent" android:summary="@string/silent_mode_summary" android:disableDependentsState="true" />
+        <com.android.settings.RingerVolumePreference android:persistent="true" android:title="@string/ring_volume_title" android:key="ring_volume" android:summary="@string/ring_volume_summary" android:dependency="silent" android:dialogTitle="@string/ring_volume_title" android:streamType="ring" />
+        <com.htc.preference.HtcVolumePreference android:persistent="true" android:title="@string/media_volume_title" android:key="media_volume" android:summary="@string/media_volume_summary" android:dialogTitle="@string/media_volume_title" android:streamType="music" />
+        <com.android.settings.DefaultRingtonePreference android:persistent="true" android:title="@string/ringtone_title" android:key="ringtone" android:summary="@string/ringtone_summary" android:dependency="silent" android:dialogTitle="@string/ringtone_title" android:ringtoneType="ringtone" android:showDefault="false" android:showSilent="false" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="true" android:title="@string/vibrate_title" android:key="vibrate" android:summary="@string/vibrate_summary" android:dependency="silent" />
+        <com.android.settings.DefaultRingtonePreference android:persistent="true" android:title="@string/notification_sound_title" android:key="notification_sound" android:summary="@string/notification_sound_summary" android:dependency="silent" android:dialogTitle="@string/notification_sound_dialog_title" android:ringtoneType="notification" android:showDefault="false" android:showSilent="false" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="true" android:title="@string/dtmf_tone_enable_title" android:key="dtmf_tone" android:dependency="silent" android:defaultValue="true" android:summaryOn="@string/dtmf_tone_enable_summary_on" android:summaryOff="@string/dtmf_tone_enable_summary_off" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="true" android:title="@string/sound_effects_enable_title" android:key="sound_effects" android:dependency="silent" android:defaultValue="false" android:summaryOn="@string/sound_effects_enable_summary_on" android:summaryOff="@string/sound_effects_enable_summary_off" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="true" android:title="@string/play_media_notification_sounds_enable_title" android:key="play_media_notification_sounds" android:dependency="silent" android:defaultValue="false" android:summaryOn="@string/play_media_notification_sounds_enable_summary_on" android:summaryOff="@string/play_media_notification_sounds_enable_summary_off" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcListPreference android:entries="@array/emergency_tone_entries" android:title="@string/emergency_tone_title" android:key="emergency_tone" android:summary="@string/emergency_tone_summary" android:entryValues="@array/emergency_tone_values" />
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/display_settings" android:key="display_group">
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="true" android:title="@string/accelerometer_title" android:key="accelerometer" android:defaultValue="true" android:summaryOn="@string/accelerometer_summary_on" android:summaryOff="@string/accelerometer_summary_off" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="true" android:title="@string/animations_title" android:key="animations" android:summaryOn="@string/animations_summary_on" android:summaryOff="@string/animations_summary_off" />
+        <com.htc.preference.HtcCheckBoxPreference android:persistent="true" android:title="@string/disable_auto_backlight_settings_title" android:key="disable_auto_backlight" android:defaultValue="true" android:summaryOn="@string/disable_auto_backlight_settings_on_summary" android:summaryOff="@string/disable_auto_backlight_settings_off_summary" />
+        <com.android.settings.BrightnessPreference android:persistent="true" android:title="@string/brightness" android:key="brightness" android:dependency="disable_auto_backlight" android:dialogTitle="@string/brightness" android:dialogIcon="@drawable/ic_popup_brightness" />
+        <com.htc.preference.HtcListPreference android:persistent="true" android:entries="@array/screen_timeout_entries" android:title="@string/screen_timeout" android:key="screen_timeout" android:entryValues="@array/screen_timeout_values" />
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/notification_flash_settings" android:key="notification_flash_settings" android:summary="@string/notify_flash_settings_summary">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.NotificationFlashSettings" />
+        </com.htc.preference.HtcPreferenceScreen>
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/screen_align_settings_title" android:key="screen_alignment_settings" android:summary="@string/screen_align_settings_summary" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/gsensor_settings" android:key="gsensor_group">
+        <com.htc.preference.HtcPreferenceScreen android:title="@string/gsensor_settings_title">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.GSensorCalibration" />
+        </com.htc.preference.HtcPreferenceScreen>
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>
