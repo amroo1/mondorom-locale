@@ -39,7 +39,7 @@
     <string name="htc_group_folder_new_folder">Kartelë e re</string>
     <string name="htc_group_widget_new_folder">Opsione</string>
     <string name="htc_group_shortcuts_application">Program</string>
-    <string name="htc_group_shortcuts_bookmark">Faqeruajtëse</string>
+    <string name="htc_group_shortcuts_bookmark">Libërshënues</string>
     <string name="htc_group_shortcuts_person">Person</string>
     <string name="htc_group_shortcuts_musicplaylist">Playlist muzikore</string>
     <string name="htc_group_shortcuts_emailindexlabel">Indexi i Etiketave te Email</string>
@@ -94,7 +94,7 @@
     <string name="drag_hint_without_space">Nuk ka hapësirë ne këtë ekran\nTërhiqe ne një tjetër</string>
     <string name="htc_private_app">HTC Sense</string>
     <string name="msg_waiting">Duke u ngarkuar...</string>
-    <string name="themes_description">Personalizoni shpejt funksionet dhe paraqitjen e celularit. Çdo Temë përmban elementët e mëposhtëm:</string>
+    <string name="themes_description">Personalizoni shpejt funksionet dhe paraqitjen e telefonit. Çdo Temë përmban elementët e mëposhtëm:</string>
     <string name="themes_widget_description">Shpërndarje widget</string>
     <string name="themes_home_description">Sfond të kryefaqes</string>
     <string name="themes_lockscreen_description">Sfond të ekranit te kyçjes.</string>
@@ -112,11 +112,11 @@
     <string name="tutorial_notice_top">Mbaj të shtypur për të shtuar, hequr, ose lëvizur elementët</string>
     <string name="tutorial_notice_bottom">Shtyp + për të shtuar elementë ne Kryefaqe</string>
     <string name="dialog_title_warning">Kujdes</string>
-    <string name="wrong_message_device_disk_full">Kujtesa e celularit është plot.</string>
+    <string name="wrong_message_device_disk_full">Kujtesa e telefonit është plot.</string>
     <string name="alphabet">\u0020ABCÇDEËFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="scene_current_unsaved">Aktuale (e paruajtur)</string>
     <string name="scene_already_exists">Tema ekziston</string>
-    <string name="scene_already_exists_HTC">Ekziston një Temë tjetër me këtë emër. Zgjidhni një emër tjetër.</string>
+    <string name="scene_already_exists_HTC">Ekziston një Temë tjetër me këtë emër. Zgjidhni një emër të ndryshëm.</string>
     <string name="scene_already_exists_user">Dëshironi ta zëvendësoni?</string>
     <string name="scene_htc_scenes">Temat HTC</string>
     <string name="scene_user_scenes">Temat personale</string>
