@@ -6,7 +6,7 @@
         <item>Āfrika</item>
         <item>Āzija</item>
         <item>Austrālija</item>
-        <item>Klusā okeāna</item>
+        <item>Klusais okeāns</item>
         <item>Visas</item>
     </string-array>
     <string-array name="date_format_values">
@@ -129,7 +129,7 @@
         <item>Cits lietojums</item>
     </string-array>
     <string-array name="battery_history_which_spinner">
-        <item>Kopš pēdējas atvienošanas</item>
+        <item>Kopš pēdējās atvienošanas</item>
         <item>Kopējais, kopš ieslēgšanas</item>
         <item>Visu laiku kopējais</item>
     </string-array>
@@ -161,7 +161,7 @@
     <string-array name="emergency_tone_entries">
         <item>Izslēgts</item>
         <item>Atskaņot</item>
-        <item>Vibrēt</item>
+        <item>Vibrē</item>
     </string-array>
     <string-array name="emergency_tone_values">
         <item>0</item>
