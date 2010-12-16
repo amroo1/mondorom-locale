@@ -7,4 +7,6 @@ Due to the complexity of translation, the translation process is divided into ti
 
 = Tiers =
 
-*Tier0*: Rosie.apk, framework-res.apk, Settings.apk 
+*Tier0*: Upon reaching tier0 you translation will be added to the ROM. It will then have the essential parts of the UI like *Sense UI*, *Android core UI* and the *Settings application *translated.
+
+*Files for translation*: Rosie.apk, framework-res.apk, Settings.apk 
