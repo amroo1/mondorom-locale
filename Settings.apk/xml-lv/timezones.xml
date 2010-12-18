@@ -33,7 +33,7 @@
     <timezone id="Europe/Belgrade">Belgrada</timezone>
     <timezone id="Europe/Brussels">Brisele</timezone>
     <timezone id="Europe/Sarajevo">Sarajeva</timezone>
-    <timezone id="Africa/Windhoek">Windhoek</timezone>
+    <timezone id="Africa/Windhoek">Windhoeka</timezone>
     <timezone id="Africa/Brazzaville">Rietumāfrika</timezone>
     <timezone id="Asia/Amman">Ammāna</timezone>
     <timezone id="Europe/Athens">Atēnas, Stambula</timezone>
@@ -53,11 +53,11 @@
     <timezone id="Asia/Yerevan">Erevāna</timezone>
     <timezone id="Asia/Dubai">Dubaija</timezone>
     <timezone id="Asia/Kabul">Kabula</timezone>
-    <timezone id="Asia/Karachi">Islāmābāda, Karāchi</timezone>
+    <timezone id="Asia/Karachi">Islāmābāda, Karāči </timezone>
     <timezone id="Asia/Oral">Uralska</timezone>
     <timezone id="Asia/Yekaterinburg">Jekaterinburga</timezone>
     <timezone id="Asia/Calcutta">Kolkata</timezone>
-    <timezone id="Asia/Colombo">Srianka</timezone>
+    <timezone id="Asia/Colombo">Šrilanka</timezone>
     <timezone id="Asia/Katmandu">Katmandu</timezone>
     <timezone id="Asia/Almaty">Astana</timezone>
     <timezone id="Asia/Rangoon">Jangona</timezone>
