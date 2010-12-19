@@ -4,12 +4,12 @@
     <string name="ap_version_id">1.0.0005</string>
     <string name="application_name">HTC Sense</string>
     <string name="folder_name">Mape</string>
-    <string name="chooser_wallpaper">Izvēlieties ekrānattēlu no</string>
-    <string name="wallpaper_instructions">Uzstādīt ekrānattēlu</string>
-    <string name="pick_wallpaper">Ekrānattēlu galerija</string>
+    <string name="chooser_wallpaper">Izvēlieties fonu no</string>
+    <string name="wallpaper_instructions">Uzstādīt fona attēlu</string>
+    <string name="pick_wallpaper">Fona attēli</string>
     <string name="activity_not_found">Saistītā programma vairs instalēta tālrunī.</string>
-    <string name="chooser_apply_wallpaper">Apstiprināt ekrānattēlu uz</string>
-    <string name="chooser_select_wallpaper_from">Izvēlēties ekrānattēlu no</string>
+    <string name="chooser_apply_wallpaper">Apstiprināt fona attēlu uz</string>
+    <string name="chooser_select_wallpaper_from">Izvēlēties fona attēlu no</string>
     <string name="rename_folder_label">Mapes nosaukums</string>
     <string name="rename_folder_title">Pardevēt mapi</string>
     <string name="rename_action">Pardevēt</string>
@@ -24,7 +24,7 @@
     <string name="menu_item_add_google_widget">Pievienot Android sīkrīku</string>
     <string name="menu_item_add_folder">Pievienot mapi</string>
     <string name="menu_item_add_live_folder">Pievienot dzīvo mapi</string>
-    <string name="menu_item_add_wallpaper">Izvēlēties ekrānattēlu no</string>
+    <string name="menu_item_add_wallpaper">Izvēlēties fona attēlu no</string>
     <string name="menu_item_add_program">Pievienot programmu</string>
     <string name="htc_group_htc_gadget">HTC sīkrīks</string>
     <string name="htc_group_c_gadget">Android sīkrīks</string>
@@ -34,7 +34,7 @@
     <string name="htc_group_google_gadgets">Android sīkrīki</string>
     <string name="htc_group_folder">Mape</string>
     <string name="htc_group_live_folder">Dzīvā mape</string>
-    <string name="htc_group_wallpaper">Ekrānattēls</string>
+    <string name="htc_group_wallpaper">Fona attēls</string>
     <string name="htc_group_search">Meklēt</string>
     <string name="htc_group_folder_new_folder">Jauna mape</string>
     <string name="htc_group_widget_new_folder">Uzstādījumi</string>
@@ -51,7 +51,7 @@
     <string name="group_live_folders">Dzīvā mape</string>
     <string name="group_widgets">Sīkrīki</string>
     <string name="group_gadgets">Sīkrīki</string>
-    <string name="group_wallpapers">Ekrānatēli</string>
+    <string name="group_wallpapers">Fona attēli</string>
     <string name="add_folder">Mape</string>
     <string name="add_clock">Pulkstenis</string>
     <string name="add_photo_frame">Foto rāmis</string>
@@ -61,7 +61,7 @@
     <string name="title_select_live_folder">Izvēlēties dzīvo mapi</string>
     <string name="menu_add">Pievienot</string>
     <string name="menu_themes">Ainas</string>
-    <string name="menu_wallpaper">Ekrānattēls</string>
+    <string name="menu_wallpaper">Fona attēls</string>
     <string name="menu_search">Meklēt</string>
     <string name="menu_notifications">Paziņojumi</string>
     <string name="menu_settings">Uzstādījumi</string>
@@ -96,8 +96,8 @@
     <string name="msg_waiting">Ielādē...</string>
     <string name="themes_description">Ātri pielāgot jūsu telefona iezīmes un izskatu. Katra aina iekļauj zemāk minētos rīkus:</string>
     <string name="themes_widget_description">Sīkrīku izkārtojums</string>
-    <string name="themes_home_description">Darbavirsmas ekrānattēls</string>
-    <string name="themes_lockscreen_description">Atbloķēšanas ekrānattēls</string>
+    <string name="themes_home_description">Darbavirsmas fona attēls</string>
+    <string name="themes_lockscreen_description">Atbloķēšanas fona attēls</string>
     <string name="dont_show_again">Nerādīt šo atkal</string>
     <string name="btn_done">Gatavs</string>
     <string name="btn_cancel">Atcelt</string>

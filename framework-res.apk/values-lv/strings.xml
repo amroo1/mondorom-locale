@@ -197,7 +197,7 @@
     <string name="CLIRDefaultOffNextCallOn">Zvanītāja ID pēc noklusējuma neierobežots. Nākamais zvans: Ierobežots</string>
     <string name="CLIRDefaultOffNextCallOff">Zvanītāja ID pēc noklusējuma neierobežots. ākamais zvans: Neierobežots</string>
     <string name="serviceNotProvisioned">Pakalpojums nav nodrošināts.</string>
-    <string name="CLIRPermanent">Zvanītāja ID uzstādījus nevar mainīt.</string>
+    <string name="CLIRPermanent">Zvanītāja ID uzstādījumus nevar mainīt.</string>
     <string name="RestrictedChangedTitle">Ierobežotā piekļuve mainīta</string>
     <string name="RestrictedOnData">Datu pakalpojums bloķēts.</string>
     <string name="RestrictedOnEmergency">Avārijas dienests bloķēts.</string>

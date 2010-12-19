@@ -6,7 +6,7 @@
     </string-array>
     <string-array name="select_wallpaper_from_dialog_items">
         <item>Albumi</item>
-        <item>Ekrānattēlu galerija</item>
+        <item>Fona attēli</item>
     </string-array>
     <string-array name="theme_settings_dialog_items">
         <item>Pārdēvēt</item>
