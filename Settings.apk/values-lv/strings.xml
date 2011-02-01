@@ -752,7 +752,7 @@
     <string name="accelerometer_summary_off">Pārslēgt ekrāna orientāciju automātiski, pagriežot tālruni</string>
     <string name="brightness">Spilgtums</string>
     <string name="brightness_summary">Pielāgot ekrāna spilgtumu</string>
-    <string name="screen_timeout">Ekrāna taimaurs</string>
+    <string name="screen_timeout">Ekrāna taimauts</string>
     <string name="screen_timeout_summary">Pielāgot laiku pēc kāda ekrāns automātiski izslēdzas</string>
     <string name="sim_lock_settings">SIM kartes atslēgas uzstādījumi</string>
     <string name="sim_lock_settings_category">Uzstādīt SIM kartes atslēgu</string>
