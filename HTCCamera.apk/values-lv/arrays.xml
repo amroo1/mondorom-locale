@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="pref_review_duration_choices">
+        <item>Izlēgt</item>
+        <item>Ieslēgt</item>
+    </string-array>
+    <string-array name="pref_quality_choices">
+        <item>Maksimālā</item>
+        <item>Augsta</item>
+        <item>Normāla</item>
+        <item>Pamata</item>
+    </string-array>
+    <string-array name="pref_selftimer_choices">
+        <item>Izslēgts</item>
+        <item>2 sekundes</item>
+        <item>10 sekundes</item>
+    </string-array>
+    <string-array name="pref_capture_format_choices">
+        <item>JPEG</item>
+    </string-array>
+    <string-array name="pref_video_format_choices">
+        <item>H.263</item>
+        <item>MPEG4</item>
+    </string-array>
+    <string-array name="pref_recording_limit_choices">
+        <item>1 MB</item>
+        <item>2 MB</item>
+        <item>10 sek</item>
+        <item>30 sek</item>
+        <item>1 min</item>
+        <item>3 min</item>
+        <item>Neierobežots</item>
+    </string-array>
+    <string-array name="pref_metering_mode_choices">
+        <item>Punkts</item>
+        <item>Centrs</item>
+        <item>Vidējs</item>
+    </string-array>
+    <string-array name="pref_flicker_choices">
+        <item>Automātisks</item>
+        <item>50 Hz</item>
+        <item>60 Hz</item>
+    </string-array>
+    <string-array name="pref_iso_choices">
+        <item>Auto</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+    </string-array>
+</resources>

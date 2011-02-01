@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <plurals name="Nsongs">
+        <item quantity="other">%d dziesmas</item>
+    </plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="other">%2$d no %1$d dziesmām</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">%d albumi</item>
+        <item quantity="one">1 albums</item>
+    </plurals>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d dziesmas izdzēstas.</item>
+        <item quantity="one">1 dziesma izdzēsta.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d dziesmas pievienotas sarakstam.</item>
+        <item quantity="one">1 dziesma pievienota sarakstam.</item>
+    </plurals>
+    <plurals name="htc_NNNdelteplaylists">
+        <item quantity="other">%d atskaņošanas saraksti izdzēsti.</item>
+        <item quantity="one">1 atskaņošanas saraksts izdzēsts.</item>
+    </plurals>
+    <plurals name="htc_NNNremovefromplaylist">
+        <item quantity="other">%d dziesmas noņemtas</item>
+        <item quantity="one">1 dziesma noņemta</item>
+    </plurals>
+</resources>

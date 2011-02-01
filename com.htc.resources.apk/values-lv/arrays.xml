@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="htc_phoneTypes">
+        <item>Mājas</item>
+        <item>Mobilais</item>
+        <item>Darba</item>
+        <item>Darba fakss</item>
+        <item>Mājas fakss</item>
+        <item>Peidžeris</item>
+        <item>Cits</item>
+        <item>Radio</item>
+        <item>Automašīna</item>
+        <item>Uzņēmums</item>
+        <item>Asistents</item>
+        <item>Pielāgots</item>
+    </string-array>
+    <string-array name="exchange_mailTypes">
+        <item>Epasts</item>
+        <item>Epasts 2</item>
+        <item>Epasts 3</item>
+    </string-array>
+
+</resources>

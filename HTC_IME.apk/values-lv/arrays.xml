@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="keyboard_types_entries">
+        <item>QWERTY</item>
+        <item>Tālruņa taustiņi</item>
+        <item>Kompaktā klaviatūra QWERTY</item>
+    </string-array>
+    <string-array name="keyboard_types_land_entries">
+        <item>QWERTY</item>
+    </string-array>
+</resources>

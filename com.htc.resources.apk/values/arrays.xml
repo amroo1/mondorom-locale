@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="quick_text">
+        <item>What are you up to?</item>
+        <item>Just checking in...</item>
+        <item>Where are you?</item>
+        <item>Check this out!</item>
+        <item>I\'ll be right there.</item>
+        <item>I\'m running late.</item>
+        <item>I\'ll get back to you.</item>
+        <item>Urgent! Please reply...</item>
+        <item>Let\'s catch up soon.</item>
+    </string-array>
+    <string-array name="quick_predefine_text">
+        <item>What are you up to?</item>
+        <item>Just checking in...</item>
+        <item>Where are you?</item>
+        <item>Check this out!</item>
+        <item>I\'ll be right there.</item>
+        <item>I\'m running late.</item>
+        <item>I\'ll get back to you.</item>
+        <item>Urgent! Please reply...</item>
+        <item>Let\'s catch up soon.</item>
+    </string-array>
+    <string-array name="localized_opertator_name">
+        <item>45412,CMCC PEOPLES</item>
+        <item>46000,CMCC</item>
+        <item>46001,China Unicom</item>
+        <item>46002,CMCC</item>
+        <item>46003,China Telcom</item>
+        <item>46007,CMCC</item>
+        <item>46601,Far EasTone</item>
+        <item>46605,APBW</item>
+        <item>46606,TUNTEX</item>
+        <item>46668,ACeS</item>
+        <item>46688,KGT-Online</item>
+        <item>46689,VIBO</item>
+        <item>46692,Chunghwa</item>
+        <item>46693,MOBITAI</item>
+        <item>46697,TW Mobile</item>
+        <item>46699,TransAsia</item>
+    </string-array>
+    <string-array name="htc_phoneTypes">
+        <item>Home</item>
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Work Fax</item>
+        <item>Home Fax</item>
+        <item>Pager</item>
+        <item>Other</item>
+        <item>Radio</item>
+        <item>Car</item>
+        <item>Company</item>
+        <item>Assistant</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="exchange_mailTypes">
+        <item>Email</item>
+        <item>Email 2</item>
+        <item>Email 3</item>
+    </string-array>
+    <array name="sort_list">
+        <item>@string/sortby_name_a_z</item>
+        <item>@string/sortby_name_z_a</item>
+        <item>@string/sortby_date_old_new</item>
+        <item>@string/sortby_date_new_old</item>
+    </array>
+</resources>
