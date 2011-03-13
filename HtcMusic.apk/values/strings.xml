@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="onesong">1 song</string>
+    <string name="onesong">1 këngë</string>
     <string name="durationformat">%2$d:%5$02d</string>
     <string name="goto_start">Library</string>
     <string name="goto_playback">Playback</string>
@@ -9,12 +9,12 @@
     <string name="delete_item">Delete</string>
     <string name="shuffle_all">Shuffle all</string>
     <string name="play_all">Play all</string>
-    <string name="delete_artist_desc">All songs by %s will be permanently deleted from the SD card.</string>
-    <string name="delete_album_desc">The entire album,\"%s\", will be permanently deleted from the SD card.</string>
-    <string name="delete_song_desc">\"%s\" will be permanently deleted from the SD card.</string>
-    <string name="htc_delete_composer_desc">All songs by %s will be permanently deleted from the SD card</string>
-    <string name="htc_delete_genre_desc">All songs in the %s genre will be permanently deleted from the SD card</string>
-    <string name="htc_delete_artist_songs_desc">The songs by %s will be permanently deleted from the SD card</string>
+    <string name="delete_artist_desc">Të gjitha këngët e %s do të fshihen nga karta SD.</string>
+    <string name="delete_album_desc">I gjithë albumi,\"%s\", do të fshihet nga karta SD.</string>
+    <string name="delete_song_desc">\"%s\" do të fshihet nga karta SD.</string>
+    <string name="htc_delete_composer_desc">Të gjitha këngët e %s do të fshihen nga karta SD</string>
+    <string name="htc_delete_genre_desc">Të gjitha këngët e rrymës %s do të fshihen nga karta SD</string>
+    <string name="htc_delete_artist_songs_desc">Të gjitha këngët e %s do të fshihen nga karta SD</string>
     <string name="htc_delete_album_songs_desc">The songs on the album \"%s\" will be permanently deleted from the SD card</string>
     <string name="htc_delete_composer_songs_desc">The songs by %s will be permanently deleted from the SD card</string>
     <string name="htc_delete_genre_songs_desc">The songs in the %s will be permanently deleted from the SD card</string>
