@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <plurals name="Nsongs">
-        <item quantity="other">%d songs</item>
+        <item quantity="other">%d kengë</item>
     </plurals>
     <plurals name="Nsongscomp">
-        <item quantity="other">%2$d of %1$d songs</item>
+        <item quantity="other">%2$d nga %1$d këngë</item>
     </plurals>
     <plurals name="Nalbums">
-        <item quantity="other">%d albums</item>
+        <item quantity="other">%d albume</item>
         <item quantity="one">1 album</item>
     </plurals>
     <plurals name="NNNtracksdeleted">
-        <item quantity="other">%d songs were deleted.</item>
-        <item quantity="one">1 song was deleted.</item>
+        <item quantity="other">%d këngë u fshinë.</item>
+        <item quantity="one">1 këngë u fshi.</item>
     </plurals>
     <plurals name="NNNtrackstoplaylist">
-        <item quantity="other">%d songs added to playlist.</item>
-        <item quantity="one">1 song added to playlist.</item>
+        <item quantity="other">%d këngë u shtuan në playlist.</item>
+        <item quantity="one">1 këngë u shtua në playlist.</item>
     </plurals>
     <plurals name="htc_NNNdelteplaylists">
-        <item quantity="other">%d playlists were deleted.</item>
-        <item quantity="one">1 playlist was deleted.</item>
+        <item quantity="other">%d playlist u fshinë.</item>
+        <item quantity="one">1 playlist u fshi.</item>
     </plurals>
     <plurals name="htc_NNNremovefromplaylist">
-        <item quantity="other">%d songs were removed</item>
-        <item quantity="one">1 song was removed</item>
+        <item quantity="other">%d këngë u hoqën</item>
+        <item quantity="one">1 këngë u hoq</item>
     </plurals>
 </resources>
