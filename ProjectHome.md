@@ -1,0 +1,1 @@
+Project for translating Android 1.6 (Donut) and MondoROM specific strings to more languages.
